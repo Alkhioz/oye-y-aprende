@@ -9,17 +9,6 @@
         <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splashscreen.xml" />
         <preference name="FadeSplashScreenDuration" value="750"/>
         <preference name="SplashScreenDelay" value="1000" />
-        <config-file target="app/src/main/res/values/themes.xml" parent="/resources">
-            <style name="MyCustomSplashTheme" parent="Theme.SplashScreen.IconBackground">
-                <item name="windowSplashScreenBackground">#ffffff</item>
-                <item name="windowSplashScreenAnimatedIcon">@drawable/ic_cdv_splashscreen</item>
-                <item name="windowSplashScreenAnimationDuration">200</item>
-                <item name="postSplashScreenTheme">@style/Theme.AppCompat.NoActionBar</item>
-            </style>
-        </config-file>
-        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application/activity" xmlns:android="http://schemas.android.com/apk/res/android">
-            <activity android:theme="@style/MyCustomSplashTheme" />
-        </edit-config>
         <!--
             ldpi    : 36x36 px
             mdpi    : 48x48 px
