@@ -49,4 +49,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-www/
+www/*
+!/www/.gitkeep
