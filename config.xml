@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="bio.mendoza.oyeyaprende" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="bio.mendoza.oyeyaprende" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Oye y Aprende</name>
-    <description>Sample Apache Cordova App</description>
+    <description>Aprende jugando con sonidos, imágenes y actividades.</description>
     <author email="alejandro@mendoza.bio" href="https://www.alejandromendoza.co">
         Oye y Aprende es una aplicación educativa inclusiva que permite a los niños aprender a través de sonidos, imágenes y juegos interactivos. Diseñada para funcionar sin conexión, ofrece actividades accesibles para el reconocimiento de emociones, números, letras y más.
     </author>
